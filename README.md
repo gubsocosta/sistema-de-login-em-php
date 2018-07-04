@@ -1,13 +1,13 @@
-# sistema-de-login-em-php
+# Sistema de Login em PHP com PDO
 Sistema de login em PHP 7.1 e MySQL, utlizando sessoes, PDO e criptografia de senha (criando o hash da senha, usando MD5 e SHA-1).
 
 O sistema possui uma tela de login e uma pagina de acesso restrito. Somente usuarios autenticados conseguem acessa-la.
 
 O arquivo /auth/init.php posssui as constantes com as credenciais de acesso ao banco MySQL.
-DB_HOST - local onde o banco esta hospedado
-DB_USER - usuario do banco
-DB_PASS - senha do usuario do banco
-DB_NAME - nome da tabela
+- DB_HOST - local onde o banco esta hospedado
+- DB_USER - usuario do banco
+- DB_PASS - senha do usuario do banco
+- DB_NAME - nome da tabela
 
 
 O arquivo /auth/funcoes.php possui tres funcoes:
